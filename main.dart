@@ -13,18 +13,18 @@ void main() {
     int twelve = 12;
     int a = 24;  
 
-    String goodDayWorld = gdStr + " " + dayStr + " " + worldStr + b;
+    String goodDayWorld = gdStr + spa + dayStr + spa + worldStr + b;
     print(goodDayWorld);
 
     int additionInt = seven + a;
     print(additionInt);  
 
-    String niceTime = c + " " + timeStr + b;
+    String niceTime = c + spa + timeStr + b;
     print(niceTime); 
 
-    String todayMorning = S + " " + morning + b;
+    String todayMorning = S + spa + morning + b;
     print(todayMorning);
 
-    int numberInt = d + seven + twelve+ a + 105;
+    int numberInt = d + seven + twelve+ a + d*5+(twelve-seven);
     print(numberInt);
 }
